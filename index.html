@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spark • Awesome</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #000000;
+      color: #fff;
+    }
+
+   .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 10px;
+      padding: 10px;
+   }
+
+   .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+      cursor: pointer;
+   }
+
+   .gallery-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.2s ease;
+      border-radius: 8px;
+   }
+
+   .gallery-item:hover img {
+     transform: scale(1.02);
+   }
+
+   .caption {
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     padding: 8px;
+     background: #d43e4c;
+     color: #fff;
+     text-align: center;
+     font-size: 14px;
+     opacity: 0;
+     transform: translateY(100%);
+     transition: opacity 0.2s ease, transform 0.2s ease;
+   }
+
+   .gallery-item:hover .caption {
+     opacity: 1;
+     transform: translateY(0);
+   }
+  </style>
+</head>
+<body>
+  <div class="gallery">
+    <div class="gallery-item">
+      <a href="#" class="gallery-link" target="_blank">
+        <img src="https://picsum.photos/id/1015/600/400" alt="Demo by User" />
+        <div class="caption">Demo by User</div>
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a href="#" class="gallery-link" target="_blank">
+        <img src="https://picsum.photos/id/1016/600/400" alt="Demo by User" />
+        <div class="caption">Demo by User</div>
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a href="#" class="gallery-link" target="_blank">
+        <img src="https://picsum.photos/id/1018/600/400" alt="Demo by User" />
+        <div class="caption">Demo by User</div>
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a href="#" class="gallery-link" target="_blank">
+        <img src="https://picsum.photos/id/1020/600/400" alt="Demo by User" />
+        <div class="caption">Demo by User</div>
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a href="#" class="gallery-link" target="_blank">
+        <img src="https://picsum.photos/id/1021/600/400" alt="Demo by User" />
+        <div class="caption">Demo by User</div>
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a href="#" class="gallery-link" target="_blank">
+        <img src="https://picsum.photos/id/1022/600/400" alt="Demo by User" />
+        <div class="caption">Demo by User</div>
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a href="#" class="gallery-link" target="_blank">
+        <img src="https://picsum.photos/id/1013/600/400" alt="Demo by User" />
+        <div class="caption">Demo by User</div>
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a href="#" class="gallery-link" target="_blank">
+        <img src="https://picsum.photos/id/1031/600/400" alt="Demo by User" />
+        <div class="caption">Demo by User</div>
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a href="#" class="gallery-link" target="_blank">
+        <img src="https://picsum.photos/id/1056/600/400" alt="Demo by User" />
+        <div class="caption">Demo by User</div>
+      </a>
+    </div>
+    <div class="gallery-item">
+      <a href="#" class="gallery-link" target="_blank">
+        <img src="https://picsum.photos/id/1064/600/400" alt="Demo by User" />
+        <div class="caption">Demo by User</div>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
