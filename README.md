@@ -26,6 +26,7 @@ To contribute, fork this repository, add your new resource and submit a PR.
 ## Demos
 
 * Spark Frequency : Dynamic audio visualization ([GitHub](https://github.com/61cygni/sparkfrequency), [Hosted Demo](https://sparkfreq.netlify.app/))
+* SplatMesh : Procedurally generated splats powered by Spark ([GitHub](https://github.com/splatmesh/splatmesh.github.io), [Hosted Demo](https://splatmesh.com))
 
 ## Articles
 
