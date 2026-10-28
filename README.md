@@ -37,3 +37,5 @@ To contribute, fork this repository, add your new resource and submit a PR.
 ## Examples
 
 ## Other
+
+* [3DBug](https://3dbug.net/) - A component for Joomla using SparkJS
